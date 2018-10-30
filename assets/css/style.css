@@ -1,0 +1,12 @@
+.my-hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.radio {
+    display: inline;
+}
+
+.radio label {
+    color: #000;
+}
