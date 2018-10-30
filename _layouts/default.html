@@ -26,6 +26,14 @@
 
 {% include footer.html %}
 
+{% if  page.url == '/chon-dang' %}
+  {% include lam-tiep-lam-lai-modal.html %}
+{% endif %}
+
+{% if page.url == '/tao-de' %}
+  {% include sua-xoa-noi-dung-modal.html %}
+{% endif %}  
+
 {% include scripts.html %}
 
 </body>
